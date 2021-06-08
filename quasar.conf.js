@@ -148,6 +148,18 @@ module.exports = function (/* ctx */) {
             sizes: '512x512',
             type: 'image/png'
           }
+        ],
+        screenshots : [
+          {
+            src: "prints/01.png",
+            sizes: "481x956",
+            type: "image/png"
+          },
+          {
+            src: "prints/02.png",
+            sizes: "481x956",
+            type: "image/png"
+          }
         ]
       }
     },
