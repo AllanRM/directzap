@@ -114,18 +114,6 @@ module.exports = function (/* ctx */) {
     pwa: {
       workboxPluginMode: 'GenerateSW', // 'GenerateSW' or 'InjectManifest'
       workboxOptions: {skipWaiting: true, clientsClaim: true}, // only for GenerateSW
-      screenshots : [
-        {
-          src: "prints/01.webp",
-          sizes: "481x956",
-          type: "image/webp"
-        },
-        {
-          src: "prints/02.webp",
-          sizes: "481x956",
-          type: "image/webp"
-        }
-      ],
       manifest: {
         name: `Whatsapp direct`,
         short_name: `Chama no zap`,
@@ -160,7 +148,21 @@ module.exports = function (/* ctx */) {
             sizes: '512x512',
             type: 'image/png'
           }
-        ]
+        ],
+        categories: ["business", "utilities"],
+        screenshots : [
+          {
+            src: "prints/01.webp",
+            sizes: "481x956",
+            type: "image/webp"
+          },
+          {
+            src: "prints/02.webp",
+            sizes: "478x955",
+            type: "image/webp"
+          }
+        ],
+        
       }
     },
 
