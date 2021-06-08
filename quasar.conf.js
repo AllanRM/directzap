@@ -122,6 +122,7 @@ module.exports = function (/* ctx */) {
         orientation: 'portrait',
         background_color: '#ffffff',
         theme_color: '#027be3',
+        lang: "pt-br",
         icons: [
           {
             src: 'icons/icon-128x128.png',
@@ -149,17 +150,17 @@ module.exports = function (/* ctx */) {
             type: 'image/png'
           }
         ],
-        categories: ["business", "utilities"],
+        categories: ['business', 'utilities'],
         screenshots : [
           {
-            src: "prints/01.webp",
-            sizes: "481x956",
-            type: "image/webp"
+            src: 'prints/01.webp',
+            sizes: '481x956',
+            type: 'image/webp'
           },
           {
-            src: "prints/02.webp",
-            sizes: "478x955",
-            type: "image/webp"
+            src: 'prints/02.webp',
+            sizes: '478x955',
+            type: 'image/webp'
           }
         ],
         
