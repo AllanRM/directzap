@@ -12,14 +12,9 @@ yarn
 quasar dev
 ```
 
-### Lint the files
-```bash
-yarn run lint
-```
-
 ### Build the app for production
 ```bash
-quasar build
+quasar build -m pwa
 ```
 
 ### Customize the configuration
